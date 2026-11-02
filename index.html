@@ -1,43 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#070e1a" />
-  <meta name="description" content="Mechanical engineering portfolio focused on robotics, CAD, electronics, and embedded systems." />
-  <title>Engineering Portfolio | Robotics & Mechatronics</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#070e1a" name="theme-color"/>
+<meta content="Frank Vera — Georgia Tech mechanical engineering student interested in automotive, aerospace, robotics, mechanical design, electronics, and software integration." name="description"/>
+<title>Frank Vera | Mechanical Engineering · Design & Advanced Systems</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
 </head>
 <body>
-  <div class="scanline" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="#home"><span class="brand-icon">⌬</span> ENGINEERING<span class="brand-accent">//</span>PORTFOLIO</a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav id="main-nav" aria-label="Main navigation">
-      <a href="#about">ABOUT</a><a href="#projects">PROJECTS</a><a href="#skills">SKILLS</a><a href="#contact">CONTACT</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> SYSTEM ONLINE <span class="eyebrow-muted">// ENGINEERING PORTFOLIO v1.0</span></p>
-        <h1>BUILDING<br /><span class="glow">WHAT'S NEXT.</span></h1>
-        <p class="hero-lead">Mechanical engineering student at Georgia Tech exploring <strong>robotics, mechatronics, embedded systems,</strong> and the intersection of hardware and software.</p>
-        <div class="actions"><a class="btn btn-primary" href="#projects">EXPLORE PROJECTS <span>↗</span></a><a class="btn btn-outline" href="assets/resume.pdf" id="resume-link" target="_blank" rel="noopener">VIEW RESUME ↗</a></div>
-        <div class="hero-metrics"><div><b>01</b><small>DESIGN</small></div><div><b>02</b><small>PROTOTYPE</small></div><div><b>03</b><small>ITERATE</small></div></div>
-      </div>
-      <div class="visual" aria-hidden="true"><div class="hud-label hud-top">SYS / MECHATRONICS</div><div class="ring ring-outer"></div><div class="ring ring-middle"></div><div class="ring ring-inner"></div><div class="core"><span>ME</span><small>ENGINEERING</small></div><div class="hud-label hud-bottom">DESIGN // ANALYZE // BUILD</div></div>
-    </section>
-    <section class="section about" id="about"><div class="section-heading"><span class="section-number">01 / PROFILE</span><h2>ENGINEERING <em>MINDSET.</em></h2></div><div class="about-grid"><p>I am a Georgia Tech mechanical engineering student interested in designing intelligent physical systems. My work spans mechanical design, CAD, prototyping, microcontrollers, and hands-on electromechanical integration.</p><div class="info-panel"><span class="panel-label">CURRENT FOCUS</span><p>Robotic mechanisms<br />CAD & manufacturing<br />Embedded control systems<br />Hardware/software integration</p></div></div></section>
-    <section class="section projects" id="projects"><div class="section-heading"><span class="section-number">02 / SELECTED WORK</span><h2>PROJECT <em>ARCHIVE.</em></h2><p>Projects are documented as engineering case studies. Replace placeholder images and links as your work progresses.</p></div><div class="project-grid">
-      <article class="project-card"><div class="project-art art-arm"><span class="art-mark">01</span><svg viewBox="0 0 400 210" role="img" aria-label="Stylized robotic arm illustration"><g fill="none" stroke="#64dcff" stroke-width="5" stroke-linejoin="round"><path d="M65 176h110v12H65z M118 175l25-68 65-30 57 35 47-46"/><circle cx="143" cy="107" r="13"/><circle cx="208" cy="77" r="13"/><circle cx="265" cy="112" r="13"/><path d="M309 58l22-17m-19 25 30 7"/></g></svg></div><div class="project-body"><span class="tag">ROBOTICS / MECHANICAL DESIGN</span><h3>Scaled Rover Arm</h3><p>Dynamic scaling of a rover arm prototype, including mass distribution, center of mass, and inertia considerations for software testing.</p><div class="chips"><span>CAD</span><span>Mechanics</span><span>Prototyping</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener" data-placeholder="true">ADD PROJECT REPOSITORY ↗</a></div></article>
-      <article class="project-card"><div class="project-art art-helmet"><span class="art-mark">02</span><svg viewBox="0 0 400 210" role="img" aria-label="Stylized helmet illustration"><path d="M142 166l-18-65 23-45 54-21 55 21 22 45-18 65-30 18h-58z" fill="none" stroke="#ffb168" stroke-width="5"/><path d="M144 105l48 10-18 15-29-5m112-20-48 10 18 15 29-5" fill="#62ddff"/><path d="M180 155h43" stroke="#ffb168" stroke-width="4"/></svg></div><div class="project-body"><span class="tag">MECHATRONICS / 3D PRINTING</span><h3>Motorized Helmet</h3><p>3D-printed wearable helmet with an actuated faceplate, servo-driven mechanism, and microcontroller-based control.</p><div class="chips"><span>Arduino</span><span>Servo Motors</span><span>3D Printing</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener" data-placeholder="true">ADD PROJECT REPOSITORY ↗</a></div></article>
-      <article class="project-card"><div class="project-art art-display"><span class="art-mark">03</span><svg viewBox="0 0 400 210" role="img" aria-label="Stylized LCD electronic display illustration"><rect x="100" y="48" width="200" height="118" rx="10" fill="none" stroke="#6ce6c6" stroke-width="5"/><rect x="125" y="72" width="150" height="65" rx="4" fill="#103b52" stroke="#64dcff"/><path d="M142 94h92M142 112h64" stroke="#75e7fa" stroke-width="7" stroke-dasharray="12 7"/><circle cx="269" cy="151" r="5" fill="#6ce6c6"/></svg></div><div class="project-body"><span class="tag">EMBEDDED SYSTEMS / ELECTRONICS</span><h3>Interactive Arduino Display</h3><p>Microcontroller-driven LCD messaging, servo animation, button input, and audio playback in a custom enclosure.</p><div class="chips"><span>Arduino Nano</span><span>C++</span><span>Electronics</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener" data-placeholder="true">ADD PROJECT REPOSITORY ↗</a></div></article>
-    </div></section>
-    <section class="section skills" id="skills"><div class="section-heading"><span class="section-number">03 / TOOLKIT</span><h2>TECHNICAL <em>STACK.</em></h2></div><div class="skills-grid"><div><h3>DESIGN & FABRICATION</h3><p>SolidWorks · Autodesk Inventor · 3D Printing · Mechanical Prototyping</p></div><div><h3>ELECTRONICS</h3><p>Arduino · Circuit Analysis · Sensors & Actuators · Multisim</p></div><div><h3>SOFTWARE & ANALYSIS</h3><p>Python · C++ / Arduino · MATLAB · Engineering Calculations</p></div></div><p class="skill-note">Edit this list to reflect your actual proficiency and experience.</p></section>
-    <section class="section contact" id="contact"><div class="section-heading"><span class="section-number">04 / CONNECT</span><h2>LET'S <em>BUILD.</em></h2></div><p>Interested in robotics, mechatronics, or collaborative engineering projects? Find my work and connect below.</p><div class="actions"><a class="btn btn-primary" id="github-link" href="https://github.com/" target="_blank" rel="noopener">GITHUB ↗</a><a class="btn btn-outline" id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LINKEDIN ↗</a></div></section>
-  </main>
-  <footer><span>© <span id="year"></span> ENGINEERING PORTFOLIO</span><span>BUILT WITH CURIOSITY // DEPLOYED ON GITHUB PAGES</span></footer>
+<div aria-hidden="true" class="scanline"></div>
+<header class="site-header">
+<a class="brand" href="#home"><span class="brand-icon">⌬</span> FRANK VERA<span class="brand-accent">//</span>ENGINEERING</a>
+<button aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle">☰</button>
+<nav aria-label="Main navigation" id="main-nav"><a href="#about">ABOUT</a><a href="#experience">EXPERIENCE</a><a href="#skills">SKILLS</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a></nav>
+</header>
+<main>
+<section class="hero section" id="home">
+<div class="hero-copy">
+<p class="eyebrow"><span class="status-dot"></span> SYSTEM ONLINE <span class="eyebrow-muted">// FRANK VERA · PORTFOLIO</span></p>
+<h1>FRANK<br/><span class="glow">VERA.</span></h1>
+<p class="hero-lead"><strong>Mechanical Engineering | Design &amp; Advanced Systems</strong><br/>Georgia Tech mechanical engineering student interested in designing, analyzing, and building advanced systems. Exploring mechanical design, electronics, and software with applications in automotive, aerospace, and robotics.</p>
+<div class="actions"><a class="btn btn-primary" href="#about">ABOUT ME ↗</a><a class="btn btn-outline" href="#contact">GET IN TOUCH ↗</a></div>
+<div class="hero-metrics"><div><b>01</b><small>DESIGN</small></div><div><b>02</b><small>PROTOTYPE</small></div><div><b>03</b><small>ITERATE</small></div></div>
+</div>
+<div aria-hidden="true" class="visual"><div class="hud-label hud-top">SYS / FRANK VERA</div><div class="ring ring-outer"></div><div class="ring ring-middle"></div><div class="ring ring-inner"></div><div class="core"><span>FV</span><small>ENGINEERING</small></div><div class="hud-label hud-bottom">DESIGN // ANALYZE // BUILD</div></div>
+</section>
+<section class="section about" id="about"><div class="section-heading"><span class="section-number">01 / PROFILE</span><h2>ENGINEERING <em>MINDSET.</em></h2></div><div class="about-grid"><p>I'm Frank Vera, a Mechanical Engineering student at the Georgia Institute of Technology. My interests span automotive, aerospace, and robotics engineering. I enjoy the process of turning ideas into working systems through mechanical design, analysis, prototyping, electronics, and programming. I'm developing these skills through coursework, independent builds, and collaborative engineering.</p><div class="info-panel"><span class="panel-label">CURRENT FOCUS</span><p>Mechanical design &amp; CAD<br/>Analysis &amp; prototyping<br/>Electronics &amp; circuit design<br/>Software &amp; system integration</p></div></div></section>
+<section class="section experience" id="experience">
+<div class="section-heading"><span class="section-number">02 / EXPERIENCE</span>
+<h2>ENGINEERING <em>EXPERIENCE.</em></h2></div>
+<div class="info-panel experience-panel">
+<span class="panel-label">SEPTEMBER 2026 — PRESENT</span>
+<h3>RoboNav Mechanical Engineer <span class="experience-org">/ RoboJackets · Georgia Tech</span></h3>
+<p>Contributing to a rover robotics team and developing a scaled robotic-arm training prototype.
+    Current work includes mechanical design, analysis, and prototyping, with attention to center of mass,
+    mass distribution, and moment-of-inertia scaling for software testing.</p>
+</div>
+</section>
+
+
+<section class="section skills skills-personalized" id="skills"><div class="section-heading"><span class="section-number">03 / CAPABILITIES</span><h2>TECHNICAL <em>STACK.</em></h2></div>
+<div class="skills-grid">
+<div><h3>TECHNICAL SKILLS</h3><p>3D Printing / Modeling · Data Analysis · Arduino · Python · CAD · Assembly Modeling · Circuit Design · Mechanical Analysis</p></div>
+<div><h3>SOFTWARE &amp; TOOLS</h3><p>SOLIDWORKS · Microsoft Suite · MATLAB · Multisim</p></div>
+<div><h3>AREAS OF INTEREST</h3><p>Automotive &amp; EV Systems · Aerospace · Robotics · Software Development · Electronics · AI Development · Technology Integration in Sports</p></div>
+</div></section><section class="section projects" id="projects"><div class="section-heading"><span class="section-number">04 / WORK IN PROGRESS</span><h2>PROJECTS <em>IN DEVELOPMENT.</em></h2><p>Selected engineering work is underway. Detailed case studies, CAD renders, calculations, and build documentation will be added as projects progress.</p></div><div class="project-grid">
+<article class="project-card"><div class="project-art art-arm"><span class="art-mark">01</span><svg aria-label="Stylized robotic arm illustration" role="img" viewbox="0 0 400 210"><g fill="none" stroke="#64dcff" stroke-linejoin="round" stroke-width="5"><path d="M65 176h110v12H65z M118 175l25-68 65-30 57 35 47-46"></path><circle cx="143" cy="107" r="13"></circle><circle cx="208" cy="77" r="13"></circle><circle cx="265" cy="112" r="13"></circle><path d="M309 58l22-17m-19 25 30 7"></path></g></svg></div><div class="project-body"><span class="tag">ROBOTICS / MECHANICAL DESIGN</span><h3>Scaled Rover Arm</h3><p>Training prototype of a scaled rover arm, with attention to mass distribution, center of mass, and rotational inertia for future software testing.</p><div class="chips"><span>CAD</span><span>Mechanics</span><span>Prototyping</span></div><span class="project-status">◉ IN DEVELOPMENT · CASE STUDY COMING SOON</span></div></article>
+<article class="project-card"><div class="project-art art-helmet"><span class="art-mark">02</span><svg aria-label="Stylized helmet illustration" role="img" viewbox="0 0 400 210"><path d="M142 166l-18-65 23-45 54-21 55 21 22 45-18 65-30 18h-58z" fill="none" stroke="#ffb168" stroke-width="5"></path><path d="M144 105l48 10-18 15-29-5m112-20-48 10 18 15 29-5" fill="#62ddff"></path><path d="M180 155h43" stroke="#ffb168" stroke-width="4"></path></svg></div><div class="project-body"><span class="tag">MECHATRONICS / 3D PRINTING</span><h3>Motorized Helmet</h3><p>Wearable 3D-printed helmet exploring servo-driven faceplate actuation, mechanical fit, and Arduino-based control.</p><div class="chips"><span>Arduino</span><span>Servo Motors</span><span>3D Printing</span></div><span class="project-status">◉ IN DEVELOPMENT · CASE STUDY COMING SOON</span></div></article>
+<article class="project-card"><div class="project-art art-display"><span class="art-mark">03</span><svg aria-label="Stylized LCD electronic display illustration" role="img" viewbox="0 0 400 210"><rect fill="none" height="118" rx="10" stroke="#6ce6c6" stroke-width="5" width="200" x="100" y="48"></rect><rect fill="#103b52" height="65" rx="4" stroke="#64dcff" width="150" x="125" y="72"></rect><path d="M142 94h92M142 112h64" stroke="#75e7fa" stroke-dasharray="12 7" stroke-width="7"></path><circle cx="269" cy="151" fill="#6ce6c6" r="5"></circle></svg></div><div class="project-body"><span class="tag">EMBEDDED SYSTEMS / ELECTRONICS</span><h3>Interactive Arduino Display</h3><p>Interactive Arduino display combining LCD messaging, servo movement, push-button input, and audio playback.</p><div class="chips"><span>Arduino Nano</span><span>C++</span><span>Electronics</span></div><span class="project-status">◉ IN DEVELOPMENT · CASE STUDY COMING SOON</span></div></article>
+</div></section>
+<section class="section contact" id="contact"><div class="section-heading"><span class="section-number">05 / CONNECT</span><h2>LET'S <em>BUILD.</em></h2></div><p>I'm interested in engineering opportunities across automotive, aerospace, robotics, and advanced product development—especially roles combining design, analysis, prototyping, and hardware/software integration. Let's connect.</p>
+<div class="actions">
+<a class="btn btn-primary" href="mailto:frankveraprecup@gmail.com">EMAIL ME ↗</a>
+<a class="btn btn-outline" href="https://www.linkedin.com/in/frank-vera-9024052b6/" rel="noopener noreferrer" target="_blank">LINKEDIN ↗</a>
+<a class="btn btn-outline" href="https://github.com/frvnk-v3ra" rel="noopener noreferrer" target="_blank">GITHUB ↗</a>
+</div>
+<p class="contact-email">frankveraprecup@gmail.com</p>
+</section>
+</main>
+<footer><span>© <span id="year"></span> FRANK VERA</span><span>BUILT WITH CURIOSITY // DEPLOYED ON GITHUB PAGES</span></footer>
 </body>
 </html>
