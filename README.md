@@ -3,7 +3,7 @@
 Futuristic JARVIS-inspired portfolio for Frank Vera, a Georgia Tech Mechanical Engineering student interested in automotive, aerospace, robotics, and advanced engineering systems.
 
 ## Live website
-https://frankvera.github.io/
+https://frvnk-v3ra.github.io/
 
 ## Files
 - `index.html` — website content and links
